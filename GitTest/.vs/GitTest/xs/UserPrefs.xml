@@ -1,23 +1,21 @@
-﻿<Properties StartupConfiguration="{5A2C988A-02F5-8555-28D3-645455AFE2A6}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Movement.cs">
     <Files>
-      <File FileName="Assets/Movement.cs" Line="7" Column="1" />
+      <File FileName="Assets/Movement.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GitTest" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Movement.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="GitTest" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2195a763-195b-4f7d-ab5f-7a94d1d79008" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
