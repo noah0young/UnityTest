@@ -18,14 +18,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         myRigidbody.velocity = new Vector3(speed * Input.GetAxis("Horizontal"), myRigidbody.velocity.y, speed * Input.GetAxis("Vertical"));
-		if (myRigidbody.velocity.y == 0f)
-		{
-			if (Input.GetKeyDown("space"))
-			{
-				myRigidbody.velocity = new Vector3 (myRigidbody.velocity.x, jump, myRigidbody.velocity.z);
-				canJump2 = true;
-			}
-        }
 		if (canJump2)
 		{
 			if (Input.GetKeyDown("space"))
@@ -34,5 +26,13 @@ public class Movement : MonoBehaviour
 				canJump2 = false;
 			}
 		}
+		if (myRigidbody.velocity.y == 0f)
+		{
+			if (Input.GetKeyDown("space"))
+			{
+				myRigidbody.velocity = new Vector3 (myRigidbody.velocity.x, jump, myRigidbody.velocity.z);
+				canJump2 = true;
+			}
+        }
     }
 }
