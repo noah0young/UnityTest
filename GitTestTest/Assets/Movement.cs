@@ -48,6 +48,9 @@ public class Movement : MonoBehaviour
 		}
 		if (myRigidbody.velocity.y == 0f)
 		{
+			canJump2 = false;
+			canJump3 = false;
+			canJump4 = false;
 			if (Input.GetKeyDown("space"))
 			{
 				myRigidbody.velocity = new Vector3 (myRigidbody.velocity.x, jump, myRigidbody.velocity.z);
